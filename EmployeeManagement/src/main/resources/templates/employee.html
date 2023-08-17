@@ -89,6 +89,7 @@
     
     <h2>All Employees</h2>
     <button type="submit" onclick="showTable();">Get All Employees</button>
+    <button id="hideButton" onclick="hideTable();" class="redirect-button hide-button" style="display: none;">Hide Table</button>
       <div id="employeeTable" style="display: none;">
     <table>
         <tr>
@@ -109,6 +110,8 @@
         <input type="text" name="empName" placeholder="Enter Employee Name" required><br>
         <input type="text" name="empDesignation" placeholder="Enter Employee Designation" required><br>
         <button type="submit">Add Employee</button>
+            
+
     </form>
     
     <h2>Update Employee</h2>
@@ -129,8 +132,27 @@
 		<script>
         function showTable() {
             const table = document.getElementById('employeeTable');
-            table.style.display = 'block'; // Show the table
+            //table.style.display = 'block'; // Show the table
+            const hideButton = document.getElementById('hideButton');
+            
+            if (table.style.display === 'none') {
+                table.style.display = 'block';
+                hideButton.style.display = 'block';
+            } else {
+                table.style.display = 'none';
+                hideButton.style.display = 'none';
+            }
+            
         }
+        
+        function hideTable() {
+            const table = document.getElementById('employeeTable');
+            table.style.display = 'none'; // Show the table
+            const hideButton = document.getElementById('hideButton');
+            hideButton.style.display = 'none'; 
+
+        }
+        
     </script>
 	
 </body>
