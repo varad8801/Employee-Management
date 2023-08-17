@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Management</title>
+   <style>
+        /* Add some basic CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .redirect-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .redirect-button:hover {
+            background-color: #0056b3;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            margin-top: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Employee Management</h1>
+    <div class="button-container">
+        <a th:href="@{/employee}" method="get">
+            <button class="redirect-button">Go to Employee Page</button>
+        </a>
+    </div>
+    
+    <h2>All Employees</h2>
+    <button type="submit" onclick="showTable();">Get All Employees</button>
+      <div id="employeeTable" style="display: none;">
+    <table>
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Designation</th>
+        </tr>
+        <tr th:each="employee : ${employees}">
+            <td th:text="${employee.empId}"></td>
+            <td th:text="${employee.empName}"></td>
+            <td th:text="${employee.empDesignation}"></td>
+        </tr>
+    </table>
+    </div>
+    
+    <h2>Add Employee</h2>
+    <form th:action="@{/admin/add}" method="post">
+        <input type="text" name="empName" placeholder="Enter Employee Name" required><br>
+        <input type="text" name="empDesignation" placeholder="Enter Employee Designation" required><br>
+        <button type="submit">Add Employee</button>
+    </form>
+    
+    <h2>Update Employee</h2>
+    <form th:action="@{/admin/update}" method="post">
+        <input type="text" name="empName" placeholder="Enter Employee Name to Update" required><br>
+        <input type="text" name="empDesignation" placeholder="Enter Updated Employee Designation" required><br>
+        <button type="submit">Update Employee</button>
+    </form>
+    
+    <h2>Delete Employee</h2>
+    <form th:action="@{/admin/delete}" method="post">
+        <input type="text" name="empName" placeholder="Enter Employee Name to Delete" required><br>
+        <button type="submit">Delete Employee</button>
+    </form>
+    
+    
+    
+		<script>
+        function showTable() {
+            const table = document.getElementById('employeeTable');
+            table.style.display = 'block'; // Show the table
+        }
+    </script>
+	
+</body>
+</html>

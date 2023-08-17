@@ -1,0 +1,238 @@
+[
+    {
+        "empName": "Daenerys Targaryen",
+        "empDesignation": "Marketing Director"
+    },
+    {
+        "empName": "Tyrion Lannister",
+        "empDesignation": "Communications Manager"
+    },
+    {
+        "empName": "Arya Stark",
+        "empDesignation": "IT Specialist"
+    },
+    {
+        "empName": "Cersei Lannister",
+        "empDesignation": "Sales Director"
+    },
+    {
+        "empName": "Frodo Baggins",
+        "empDesignation": "Logistics Coordinator"
+    },
+    {
+        "empName": "Gandalf",
+        "empDesignation": "Innovation Strategist"
+    },
+    {
+        "empName": "Aragorn",
+        "empDesignation": "Operations Manager"
+    },
+    {
+        "empName": "Legolas",
+        "empDesignation": "Visual Designer"
+    },
+    {
+        "empName": "Gimli",
+        "empDesignation": "Supply Chain Analyst"
+    },
+    {
+        "empName": "Samwise Gamgee",
+        "empDesignation": "HR Specialist"
+    },
+    {
+        "empName": "Sansa Stark",
+        "empDesignation": "Corporate Trainer"
+    },
+    {
+        "empName": "Robb Stark",
+        "empDesignation": "Project Manager"
+    },
+    {
+        "empName": "Eddard Stark",
+        "empDesignation": "Legal Counsel"
+    },
+    {
+        "empName": "Jaime Lannister",
+        "empDesignation": "Operations Director"
+    },
+    {
+        "empName": "Theon Greyjoy",
+        "empDesignation": "Product Manager"
+    },
+    {
+        "empName": "Joffrey Baratheon",
+        "empDesignation": "Public Relations Specialist"
+    },
+    {
+        "empName": "Petyr Baelish",
+        "empDesignation": "Financial Advisor"
+    },
+    {
+        "empName": "Bran Stark",
+        "empDesignation": "Data Analyst"
+    },
+    {
+        "empName": "Catelyn Stark",
+        "empDesignation": "Corporate Affairs Manager"
+    },
+    {
+        "empName": "Eowyn",
+        "empDesignation": "Diversity & Inclusion Officer"
+    },
+    {
+        "empName": "Gollum",
+        "empDesignation": "Research Scientist"
+    },
+    {
+        "empName": "Saruman",
+        "empDesignation": "Chief Technology Officer"
+    },
+    {
+        "empName": "Faramir",
+        "empDesignation": "Strategy Consultant"
+    },
+    {
+        "empName": "Galadriel",
+        "empDesignation": "Executive Vice President"
+    },
+    {
+        "empName": "Théoden",
+        "empDesignation": "Team Leadership Coach"
+    },
+    {
+        "empName": "Sauron",
+        "empDesignation": "Competitive Intelligence Analyst"
+    },
+    {
+        "empName": "Bilbo Baggins",
+        "empDesignation": "Content Writer"
+    },
+    {
+        "empName": "Denethor",
+        "empDesignation": "Strategic Advisor"
+    },
+    {
+        "empName": "Éomer",
+        "empDesignation": "Sales Manager"
+    },
+    {
+        "empName": "Eowyn",
+        "empDesignation": "Diversity & Inclusion Officer"
+    },
+    {
+        "empName": "Gollum",
+        "empDesignation": "Research Scientist"
+    },
+    {
+        "empName": "Samwise Gamgee",
+        "empDesignation": "HR Specialist"
+    },
+    {
+        "empName": "Galadriel",
+        "empDesignation": "Executive Vice President"
+    },
+    {
+        "empName": "Legolas",
+        "empDesignation": "Visual Designer"
+    },
+    {
+        "empName": "Gimli",
+        "empDesignation": "Supply Chain Analyst"
+    },
+    {
+        "empName": "Gollum",
+        "empDesignation": "Research Scientist"
+    },
+    {
+        "empName": "Boromir",
+        "empDesignation": "Leadership Development Manager"
+    },
+    {
+        "empName": "Pippin",
+        "empDesignation": "Marketing Coordinator"
+    },
+    {
+        "empName": "Merry",
+        "empDesignation": "Client Relations Specialist"
+    },
+    {
+        "empName": "Frodo Baggins",
+        "empDesignation": "Logistics Coordinator"
+    },
+    {
+        "empName": "Gandalf",
+        "empDesignation": "Innovation Strategist"
+    },
+    {
+        "empName": "Aragorn",
+        "empDesignation": "Operations Manager"
+    },
+    {
+        "empName": "Smeagol",
+        "empDesignation": "Data Analyst"
+    },
+    {
+        "empName": "Bilbo Baggins",
+        "empDesignation": "Content Writer"
+    },
+    {
+        "empName": "Legolas",
+        "empDesignation": "Visual Designer"
+    },
+    {
+        "empName": "Faramir",
+        "empDesignation": "Strategy Consultant"
+    },
+    {
+        "empName": "Galadriel",
+        "empDesignation": "Executive Vice President"
+    },
+    {
+        "empName": "Arwen",
+        "empDesignation": "Brand Ambassador"
+    },
+    {
+        "empName": "Gimli",
+        "empDesignation": "Supply Chain Analyst"
+    },
+    {
+        "empName": "Gollum",
+        "empDesignation": "Research Scientist"
+    },
+    {
+        "empName": "Éowyn",
+        "empDesignation": "Diversity & Inclusion Officer"
+    },
+    {
+        "empName": "Gandalf",
+        "empDesignation": "Innovation Strategist"
+    },
+    {
+        "empName": "Aragorn",
+        "empDesignation": "Operations Manager"
+    },
+    {
+        "empName": "Théoden",
+        "empDesignation": "Team Leadership Coach"
+    },
+    {
+        "empName": "Frodo Baggins",
+        "empDesignation": "Logistics Coordinator"
+    },
+    {
+        "empName": "Gollum",
+        "empDesignation": "Research Scientist"
+    },
+    {
+        "empName": "Boromir",
+        "empDesignation": "Leadership Development Manager"
+    },
+    {
+        "empName": "Pippin",
+        "empDesignation": "Marketing Coordinator"
+    },
+    {
+        "empName": "Merry",
+        "empDesignation": "Client Relations Specialist"
+    }
+]
