@@ -37,6 +37,11 @@ public class adminController {
 	public Optional<Employee> getempById(@RequestParam int empId){
 		return empser.getempById(empId);
 	}
+	@GetMapping("getempByName")
+	@ResponseBody
+	public List<Employee> getempByName(@RequestParam List<String> empName){
+		return empser.getempByName(empName);
+	}
 	
 	@PostMapping("add")
 	public String addEmployee(@RequestBody List<Employee> employees) {

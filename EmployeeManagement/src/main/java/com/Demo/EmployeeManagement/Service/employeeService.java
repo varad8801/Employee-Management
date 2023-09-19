@@ -58,6 +58,7 @@ public class employeeService {
         try {
             for (String i : empName) {
                 employeedao.deleteAll(employeedao.findByempName(i));
+                
             }
             return "Deleted " + empName;
         } catch (Exception e) {
@@ -65,4 +66,10 @@ public class employeeService {
             return "Error deleting employees"; // Handle the error accordingly
         }
     }
+
+	public List<Employee> getempByName(List<String> empName) {
+		// TODO Auto-generated method stub
+		
+		return employeedao.findByempName(empName.get(0)) ;
+	}
 }
